@@ -1,0 +1,3 @@
+#! /usr/bin/env zsh
+
+echo "LEAVE $(date +%d.%m.%y) $(date +%H:%M:%S)" >> "${0:A:h}/table"

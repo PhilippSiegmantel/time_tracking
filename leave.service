@@ -1,0 +1,11 @@
+[Unit]
+Description=Log arrival time
+
+[Service]
+Type=oneshot
+User=philipps
+Group=philipps
+ExecStart=/home/philipps/bin/time_table/leave
+
+[Install]
+WantedBy=halt.target reboot.target shutdown.target
